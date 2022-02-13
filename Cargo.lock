@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
-name = "memory-management"
+name = "mars_calculator"
+version = "0.1.0"
+
+[[package]]
+name = "memory_management"
 version = "0.1.0"
