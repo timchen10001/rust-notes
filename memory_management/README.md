@@ -16,7 +16,7 @@
   > If we want to store an array on the stack, we have to specify exactly how many elements it will hold.
 
 - `When a function exits it's stack frame is released.`
-  > This means that we don't have to dislocating he memory.
+  > This means that we don't have to dislocating the memory.
 
 - *`It's important to remember that the stack has a limited size determined by the machine architecture ... etc factors`*
   > If we reach the end of the stack by an infinite recursion, for example, our program will crash with a `stack over flow` error.

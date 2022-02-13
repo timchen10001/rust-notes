@@ -27,6 +27,6 @@
 
 ## Subjects
 
-- ##  [Memory Management](memory-management)
+- ##  [Memory Management](memory_management)
 
 - ##  [Command Line Application](mars_calculator)
