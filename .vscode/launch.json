@@ -1,0 +1,82 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'memory_management'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=memory_management",
+                    "--package=memory_management"
+                ],
+                "filter": {
+                    "name": "memory_management",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'memory_management'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=memory_management",
+                    "--package=memory_management"
+                ],
+                "filter": {
+                    "name": "memory_management",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'mars_calculator'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=mars_calculator",
+                    "--package=mars_calculator"
+                ],
+                "filter": {
+                    "name": "mars_calculator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'mars_calculator'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=mars_calculator",
+                    "--package=mars_calculator"
+                ],
+                "filter": {
+                    "name": "mars_calculator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
