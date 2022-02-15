@@ -1,5 +1,6 @@
 [workspace]
 members = [
   "memory_management",
-  "mars_calculator"
+  "mars_calculator",
+  "server"
 ]
